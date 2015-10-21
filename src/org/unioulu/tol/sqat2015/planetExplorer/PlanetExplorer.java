@@ -164,16 +164,16 @@ public class PlanetExplorer {
 	}
 	
 	private void _checkEdge(){
-		if(this.x >= planet_array.length+1){
+		if(this.x >= planet_array.length){
 			this.x = 0;
 		}else if(this.x < 0){
-			this.x = planet_array.length;
+			this.x = planet_array.length-1;
 		}
 		
-		if(this.y >= planet_array[0].length+1){
+		if(this.y >= planet_array[0].length){
 			this.y = 0;
 		}else if(this.y < 0){
-			this.y = planet_array[0].length;
+			this.y = planet_array[0].length-1;
 		}
 	}
 	
