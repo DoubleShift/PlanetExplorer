@@ -176,3 +176,13 @@ EditAction 1445434104752 TestPlanetExplorer.java 1915 7 21 7
 UnitTestCaseAction 1445434106354 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445434106354 TestPlanetExplorer FAIL
 EditAction 1445434138060 PlanetExplorer.java 4077 10 19 0
+UnitTestCaseAction 1445434159339 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434159340 TestPlanetExplorer FAIL
+RefactoringAction 1445434585488 TestPlanetExplorer.java ADD void test_wrapping()/2 METHOD
+RefactoringAction 1445434588504 TestPlanetExplorer.java ADD void test_wrapping()/3 METHOD
+RefactoringAction 1445434597021 TestPlanetExplorer.java RENAME test_wrapping()/3=>void test_locating_() METHOD
+RefactoringAction 1445434602037 TestPlanetExplorer.java RENAME test_locating_()=>void test_locating_obstacle() METHOD
+RefactoringAction 1445434637114 TestPlanetExplorer.java RENAME test_wrapping()/2=>void test_locating_obstacle()/2 METHOD
+RefactoringAction 1445434638130 TestPlanetExplorer.java RENAME test_locating_obstacle()/2=>void test_locating_obstacles() METHOD
+RefactoringAction 1445434702917 PlanetExplorer.java ADD String report() METHOD
+EditAction 1445434709736 PlanetExplorer.java 4164 11 20 0

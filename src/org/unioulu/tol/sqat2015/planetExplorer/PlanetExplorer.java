@@ -163,6 +163,7 @@ public class PlanetExplorer {
 		}
 	}
 	
+	// not sure about the rule 6.wrapping
 	private void _checkEdge(){
 		if(this.x >= planet_array.length){
 			this.x = 0;
@@ -179,5 +180,9 @@ public class PlanetExplorer {
 	
 	private String _getPosition(){
 		return "("+this.x+","+this.y+","+this.direction[this.direct]+")";
+	}
+	
+	public String report(){
+		return "";
 	}
 }
