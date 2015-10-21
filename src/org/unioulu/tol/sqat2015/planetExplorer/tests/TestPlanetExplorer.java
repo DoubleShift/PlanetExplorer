@@ -83,6 +83,7 @@ public class TestPlanetExplorer {
 		assertEquals(position,planet.executeCommand("b"));
 	}
 	
+	//Rule 8.Location a single obstacle
 	@Test
 	public void test_locating_obstacle(){
 		String report = "(1,2,E)(2,2)";
@@ -91,6 +92,8 @@ public class TestPlanetExplorer {
 		assertEquals(report,planet.report());
 	}
 	
+	//Rule 8.Location multiple  obstacles
+
 	@Test
 	public void test_locating_obstacles(){
 		String report = "(1,2,E)(2,2)(2,1)";
