@@ -98,7 +98,7 @@ public class TestPlanetExplorer {
 	public void test_locating_obstacles(){
 		String report = "(1,2,E)(2,2)(2,1)";
 		PlanetExplorer planet = new PlanetExplorer(6,6,"");
-		planet.executeCommand("b");
+		planet.executeCommand("ffrfff");
 		assertEquals(report,planet.report());
 	}
 }
