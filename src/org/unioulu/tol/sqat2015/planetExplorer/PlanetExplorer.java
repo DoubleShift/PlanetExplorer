@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:101
-// Finish time:
+// Finish time: 16:40 21/10/2015
 public class PlanetExplorer {
 	
 	// 0: white space
