@@ -42,7 +42,7 @@ public class TestPlanetExplorer {
 	public void test_landing(){
 		String position = "(0,0,N)";
 		PlanetExplorer planet = new PlanetExplorer(6,6,"");
-		assertArrayEquals(position,planet.executeCommand(""));
+		assertEquals(position,planet.executeCommand(""));
 	}
 	
 	@Test

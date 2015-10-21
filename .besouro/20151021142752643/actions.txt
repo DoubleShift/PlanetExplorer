@@ -104,3 +104,15 @@ UnitTestSessionAction 1445431685811 TestPlanetExplorer OK
 EditAction 1445431859285 TestPlanetExplorer.java 1311 6 9 3
 CompilationAction 1445431859544 TestPlanetExplorer.java
 EditAction 1445431864174 PlanetExplorer.java 2154 4 6 0
+CompilationAction 1445431874353 TestPlanetExplorer.java
+RefactoringAction 1445431936250 PlanetExplorer.java ADD int direction FIELD
+RefactoringAction 1445431971296 PlanetExplorer.java REMOVE direction FIELD
+RefactoringAction 1445431978349 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445431978349 PlanetExplorer.java ADD void _setObstacles(String) METHOD
+RefactoringAction 1445431978350 PlanetExplorer.java ADD int METHOD
+RefactoringAction 1445431978350 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445431983368 PlanetExplorer.java ADD direction N FIELD
+RefactoringAction 1445431986392 PlanetExplorer.java ADD direction S FIELD
+RefactoringAction 1445431986393 PlanetExplorer.java ADD direction W FIELD
+RefactoringAction 1445431988928 PlanetExplorer.java ADD direction E FIELD
+EditAction 1445432132185 PlanetExplorer.java 2305 4 7 0
