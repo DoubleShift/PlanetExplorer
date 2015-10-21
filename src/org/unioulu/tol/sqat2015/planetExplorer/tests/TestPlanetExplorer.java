@@ -62,6 +62,8 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_truning_moving(){
-		
+		String position = "(2,2,E)";
+		PlanetExplorer planet = new PlanetExplorer(6,6,"");
+		assertEquals(position,planet.executeCommand("ffrff"));
 	}
 }
