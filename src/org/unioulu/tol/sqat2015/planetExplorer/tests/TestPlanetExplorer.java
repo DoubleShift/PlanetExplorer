@@ -47,6 +47,9 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_turning(){
+		String position = "(0,0,E)";
+		PlanetExplorer planet = new PlanetExplorer(6,6,"r");
+		assertEquals(position,planet.executeCommand(""));
 		
 	}
 	

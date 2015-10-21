@@ -116,3 +116,6 @@ RefactoringAction 1445431986392 PlanetExplorer.java ADD direction S FIELD
 RefactoringAction 1445431986393 PlanetExplorer.java ADD direction W FIELD
 RefactoringAction 1445431988928 PlanetExplorer.java ADD direction E FIELD
 EditAction 1445432132185 PlanetExplorer.java 2305 4 7 0
+UnitTestCaseAction 1445432139013 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432139014 TestPlanetExplorer OK
+EditAction 1445432180598 TestPlanetExplorer.java 1447 6 12 4
