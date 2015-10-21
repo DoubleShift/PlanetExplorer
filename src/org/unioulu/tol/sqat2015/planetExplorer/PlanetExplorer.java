@@ -32,11 +32,14 @@ public class PlanetExplorer {
 		obstacles =	obstacles.replaceAll("\\(","");
 
 		String[] parts = obstacles.split(Pattern.quote(",")); 
-		for(int i =0;i<parts.length;i=i+2){
-			int x = Integer.parseInt(parts[i]);
-			int y = Integer.parseInt(parts[i+1]);
-			this.planet_array[x][y] = 1;
+		if (parts.length != 0){
+			for(int i =0;i<parts.length;i=i+2){
+				int x = Integer.parseInt(parts[i]);
+				int y = Integer.parseInt(parts[i+1]);
+				this.planet_array[x][y] = 1;
+			}
 		}
+
                 
    
 	}
