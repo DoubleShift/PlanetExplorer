@@ -57,3 +57,9 @@ RefactoringAction 1445429418909 TestPlanetExplorer.java RENAME test()=>void test
 RefactoringAction 1445429422923 TestPlanetExplorer.java RENAME test_()=>void test_truning() METHOD
 RefactoringAction 1445429425937 TestPlanetExplorer.java RENAME test_truning()=>void test_truning_moving() METHOD
 EditAction 1445429431390 TestPlanetExplorer.java 861 6 3 1
+RefactoringAction 1445429497879 PlanetExplorer.java ADD void _set FIELD
+RefactoringAction 1445429503899 PlanetExplorer.java RENAME _set=>void _setObsta FIELD
+RefactoringAction 1445429505412 PlanetExplorer.java RENAME _setObsta=>void _setObstacles FIELD
+RefactoringAction 1445429506431 PlanetExplorer.java RENAME _setObstacles=>void _setObstacles() METHOD
+RefactoringAction 1445429515984 PlanetExplorer.java RENAME _setObstacles()=>void _setObstacles(String) METHOD
+EditAction 1445429607460 TestPlanetExplorer.java 1180 6 6 2
