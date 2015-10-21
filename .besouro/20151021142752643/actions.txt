@@ -66,3 +66,7 @@ EditAction 1445429607460 TestPlanetExplorer.java 1180 6 6 2
 RefactoringAction 1445429654565 PlanetExplorer.java ADD import java.util.regex.Pattern IMPORT
 RefactoringAction 1445429659682 PlanetExplorer.java ADD import java.util.regex.Matcher IMPORT
 EditAction 1445430204747 PlanetExplorer.java 2083 4 10 0
+RefactoringAction 1445430230707 main.java ADD main.java CLASS
+FileOpenedAction 1445430230859 main.java 167 1 0 0
+RefactoringAction 1445430238864 main.java ADD import org.junit.Assert.assertArrayEquals IMPORT
+EditAction 1445430366242 PlanetExplorer.java 1957 4 9 0

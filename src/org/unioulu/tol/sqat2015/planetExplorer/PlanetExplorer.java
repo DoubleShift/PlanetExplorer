@@ -26,15 +26,12 @@ public class PlanetExplorer {
 	
 	
 	private void _setObstacles(String obstacles){
-        String text    =
-                "This is the text to be searched " +
-                "for occurrences of the http:// pattern.";
 
-            String patternString = "\\d";
+            String patternString = ".*\\d.*";
 
             Pattern pattern = Pattern.compile(patternString);
             Matcher matcher = pattern.matcher(obstacles);
-            System.out.println(matcher);
+            System.out.println(matcher.matches());
 	}
 	
 	
