@@ -55,7 +55,9 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_moving(){
-		
+		String position = "(0,1,N)";
+		PlanetExplorer planet = new PlanetExplorer(6,6,"");
+		assertEquals(position,planet.executeCommand("f"));
 	}
 	
 	@Test

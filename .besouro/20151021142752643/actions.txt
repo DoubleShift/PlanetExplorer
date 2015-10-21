@@ -150,3 +150,4 @@ RefactoringAction 1445433239241 PlanetExplorer.java RENAME _=>void _back() METHO
 RefactoringAction 1445433290561 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1445433298600 PlanetExplorer.java ADD int y FIELD
 EditAction 1445433515320 PlanetExplorer.java 3720 9 15 0
+EditAction 1445433576545 TestPlanetExplorer.java 1584 6 15 5
