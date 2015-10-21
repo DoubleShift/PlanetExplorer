@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 // Finish time:
 public class PlanetExplorer {
 	
-	// 0: way
+	// 0: white space
 	// 1: obstacle
 	// 2: explorer
 	// 3: 
@@ -69,6 +69,12 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		char[] command_array = command.toCharArray();
+		int len = command_array.length;
+		for(int i =0;i<len;i++){
+			System.out.println(command_array[i]);
+		}
+		
 		if(command == ""){
 			return "(0,0,N)";
 		}
