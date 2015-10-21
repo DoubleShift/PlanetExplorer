@@ -158,6 +158,6 @@ public class PlanetExplorer {
 	}
 	
 	private String _getPosition(){
-		return "(0,0,"+this.direction[this.direct]+")";
+		return "("+this.x+","+this.y+","+this.direction[this.direct]+")";
 	}
 }
