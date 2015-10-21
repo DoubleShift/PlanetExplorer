@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	
 	private void _setObstacles(String obstacles){
 
-			obstacles.replaceAll(")(",",");
+			obstacles.replaceAll("(.*))((.*)",",");
 			obstacles.replaceAll(")","");
 			obstacles.replaceAll("(","");
 
