@@ -31,9 +31,10 @@ public class PlanetExplorer {
 		obstacles =	obstacles.replaceAll("\\)","");
 		obstacles =	obstacles.replaceAll("\\(","");
 
-
-
-           System.out.println(obstacles);  
+		String[] parts = obstacles.split(Pattern.quote(",")); 
+		for(int i =0;i<parts.length;i=i+2){
+	           System.out.print(parts[i]+':'+parts[i+1]);  
+		}
                 
    
 	}
