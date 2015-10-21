@@ -33,7 +33,9 @@ public class PlanetExplorer {
 
 		String[] parts = obstacles.split(Pattern.quote(",")); 
 		for(int i =0;i<parts.length;i=i+2){
-	           System.out.print(parts[i]+':'+parts[i+1]);  
+			int x = Integer.parseInt(parts[i]);
+			int y = Integer.parseInt(parts[i+1]);
+			this.planet_array[x][y] = 1;
 		}
                 
    
