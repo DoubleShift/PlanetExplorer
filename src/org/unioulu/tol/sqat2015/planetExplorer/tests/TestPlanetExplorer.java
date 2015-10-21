@@ -18,7 +18,7 @@ public class TestPlanetExplorer {
 		      {0,0,0,0,0,0}
 		      
 		};
-		PlanetExplorer planet = new PlanetExplorer(6,6,"(5,5)(2,2)");
+		PlanetExplorer planet = new PlanetExplorer(6,6,"");
 		assertArrayEquals(planet_array, planet.displayPlanet());
 		
 	}
