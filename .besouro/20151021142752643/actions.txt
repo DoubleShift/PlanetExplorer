@@ -71,3 +71,4 @@ FileOpenedAction 1445430230859 main.java 167 1 0 0
 RefactoringAction 1445430238864 main.java ADD import org.junit.Assert.assertArrayEquals IMPORT
 EditAction 1445430366242 PlanetExplorer.java 1957 4 9 0
 EditAction 1445430408790 PlanetExplorer.java 1955 4 9 0
+EditAction 1445430419812 PlanetExplorer.java 1954 4 9 0
