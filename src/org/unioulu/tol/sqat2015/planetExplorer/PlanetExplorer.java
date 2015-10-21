@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	
 	private void _setObstacles(String obstacles){
 
-            String patternString = ".*(\\d,\\d).*";
+            String patternString = ".*(\\d,\\d)(.*";
 
             Pattern pattern = Pattern.compile(patternString);
             Matcher matcher = pattern.matcher(obstacles);
