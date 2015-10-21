@@ -107,6 +107,7 @@ public class PlanetExplorer {
 	}
 	
 	private void _forward(){
+
 		switch(this.direct){
 			case 0://North
 				this.y+=1;
@@ -121,7 +122,11 @@ public class PlanetExplorer {
 				this.x-=1;
 				break;
 		}
+		
+		this._checkEdge();
 	}
+	
+
 	
 	private void _back(){
 		switch(this.direct){
@@ -138,7 +143,8 @@ public class PlanetExplorer {
 				this.x+=1;
 				break;
 		}
-		
+		this._checkEdge();
+
 	}
 	
 	private void _turnLeft(){
@@ -154,6 +160,20 @@ public class PlanetExplorer {
 			this.direct = 0;
 		}else{
 			this.direct+=1;
+		}
+	}
+	
+	private void _checkEdge(){
+		if(this.x >= planet_array.length+1){
+			this.x = 0;
+		}else if(this.x < 0){
+			this.x = planet_array.length;
+		}
+		
+		if(this.y >= planet_array[0].length+1){
+			this.y = 0;
+		}else if(this.y < 0){
+			this.y = planet_array[0].length;
 		}
 	}
 	
