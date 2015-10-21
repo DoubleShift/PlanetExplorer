@@ -141,3 +141,12 @@ EditAction 1445433130828 PlanetExplorer.java 3032 7 13 0
 UnitTestCaseAction 1445433133488 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433133488 TestPlanetExplorer FAIL
 EditAction 1445433158172 PlanetExplorer.java 3049 7 13 0
+UnitTestCaseAction 1445433161827 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433161827 TestPlanetExplorer OK
+RefactoringAction 1445433227165 PlanetExplorer.java ADD void _ FIELD
+RefactoringAction 1445433229683 PlanetExplorer.java RENAME _=>void _forward() METHOD
+RefactoringAction 1445433237223 PlanetExplorer.java ADD void _ FIELD
+RefactoringAction 1445433239241 PlanetExplorer.java RENAME _=>void _back() METHOD
+RefactoringAction 1445433290561 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445433298600 PlanetExplorer.java ADD int y FIELD
+EditAction 1445433515320 PlanetExplorer.java 3720 9 15 0

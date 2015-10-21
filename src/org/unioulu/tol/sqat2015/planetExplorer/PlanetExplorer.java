@@ -12,8 +12,12 @@ public class PlanetExplorer {
 	// 0: white space
 	// 1: obstacle
 	// 2: explorer
-	// 3: 
 	private int[][] planet_array;
+	
+	
+	// (0,0,N) when landing
+	private int x = 0;
+	private int y = 0;
 	
 	// explorer current direction
 	// 0: N
@@ -89,11 +93,52 @@ public class PlanetExplorer {
 				case 'r':
 					this._turnRight();
 					break;
+				case 'f':
+					this._forward();
+					break;
+				case 'b':
+					this._back();
+					break;
 			}
 			
 		}
 		
 		return this._getPosition();
+	}
+	
+	private void _forward(){
+		switch(this.direct){
+			case 0://North
+				this.y+=1;
+				break;
+			case 1://South
+				this.y-=1;
+				break;		
+			case 2://West
+				this.x-=1;
+				break;		
+			case 3://East
+				this.x+=1;
+				break;
+		}
+	}
+	
+	private void _back(){
+		switch(this.direct){
+			case 0://North
+				this.y-=1;
+				break;
+			case 1://South
+				this.y+=1;
+				break;		
+			case 2://West
+				this.x+=1;
+				break;		
+			case 3://East
+				this.x-=1;
+				break;
+		}
+		
 	}
 	
 	private void _turnLeft(){
