@@ -26,13 +26,12 @@ public class PlanetExplorer {
 	
 	
 	private void _setObstacles(String obstacles){
-
+		if (obstacles != ""){
 		obstacles = obstacles.replaceAll("\\)\\(",",");
 		obstacles =	obstacles.replaceAll("\\)","");
 		obstacles =	obstacles.replaceAll("\\(","");
 
 		String[] parts = obstacles.split(Pattern.quote(",")); 
-		if (parts.length != 0){
 			for(int i =0;i<parts.length;i=i+2){
 				int x = Integer.parseInt(parts[i]);
 				int y = Integer.parseInt(parts[i+1]);
