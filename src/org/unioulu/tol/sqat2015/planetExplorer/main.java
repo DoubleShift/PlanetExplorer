@@ -1,6 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 public class main {
 
@@ -16,6 +17,8 @@ public class main {
 		      
 		};
 		PlanetExplorer planet = new PlanetExplorer(6,6,"(5,5)(2,2)");
+		
+		System.out.println(planet.executeCommand("r"));
 	}
 
 }

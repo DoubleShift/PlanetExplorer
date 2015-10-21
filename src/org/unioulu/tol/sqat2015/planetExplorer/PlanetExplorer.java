@@ -15,10 +15,14 @@ public class PlanetExplorer {
 	// 3: 
 	private int[][] planet_array;
 	
+	// explorer current direction
+	// 0: N
+	// 1: E
+	// 2: S
+	// 3: W
+	private int direct = 0;
 	
-	private enum direction{
-		N,S,W,E
-	};
+	private String[] direction = {"N","E","S","W"};
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -69,15 +73,46 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		
+		if(command == ""){
+			return this._getPosition();
+		}
+		
+		
 		char[] command_array = command.toCharArray();
 		int len = command_array.length;
 		for(int i =0;i<len;i++){
-			System.out.println(command_array[i]);
+			switch(command_array[i]){
+				case 'l':
+					this._turnLeft();
+					break;
+				case 'r':
+					this._turnRight();
+					break;
+			}
+			
 		}
 		
-		if(command == ""){
-			return "(0,0,N)";
-		}
 		return "";
+	}
+	
+	private void _turnLeft(){
+		if(this.direct == 0){
+			this.direct = 3;
+		}else{
+			this.direct-=1;
+		}
+	}
+	
+	private void _turnRight(){
+		if(this.direct == 3){
+			this.direct = 0;
+		}else{
+			this.direct+=1;
+		}
+	}
+	
+	private String _getPosition(){
+		return "(0,0,"+this.direction[this.direct]+")";
 	}
 }
