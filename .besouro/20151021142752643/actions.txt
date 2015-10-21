@@ -10,3 +10,17 @@ RefactoringAction 1445428211164 TestPlanetExplorer.java RENAME test_createplanet
 RefactoringAction 1445428279601 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 FileOpenedAction 1445428341673 TestBowlingScoreCalculator.java 706 6 6 0
 EditAction 1445428555230 TestPlanetExplorer.java 569 1 0 0
+CompilationAction 1445428555592 TestPlanetExplorer.java
+CompilationAction 1445428555593 TestPlanetExplorer.java
+RefactoringAction 1445428578358 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445428582377 PlanetExplorer.java RENAME display=>int FIELD
+RefactoringAction 1445428584393 PlanetExplorer.java RENAME displayPlanet=>int METHOD
+RefactoringAction 1445428633006 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445428635522 PlanetExplorer.java RENAME pl=>int FIELD
+RefactoringAction 1445428637536 PlanetExplorer.java RENAME planet=>int FIELD
+RefactoringAction 1445428816703 PlanetExplorer.java ADD import java.util.Arrays IMPORT
+CompilationAction 1445429050291 TestPlanetExplorer.java
+CompilationAction 1445429050292 TestPlanetExplorer.java
+CompilationAction 1445429050453 TestPlanetExplorer.java
+CompilationAction 1445429050453 TestPlanetExplorer.java
+EditAction 1445429133163 PlanetExplorer.java 1539 3 4 0
