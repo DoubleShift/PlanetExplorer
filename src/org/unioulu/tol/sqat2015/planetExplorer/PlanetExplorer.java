@@ -16,7 +16,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		planet_array = new int[x][y];
-		Arrays.fill(planet_array, 0);
+		for (int[] row: planet_array)
+		    Arrays.fill(row, 0);
 	}
 	
 	public int[][] displayPlanet(){
