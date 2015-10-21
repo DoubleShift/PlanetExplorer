@@ -138,3 +138,6 @@ RefactoringAction 1445432928979 PlanetExplorer.java RENAME W=>direction S FIELD
 RefactoringAction 1445432930999 PlanetExplorer.java RENAME E/2=>direction W FIELD
 RefactoringAction 1445433030917 PlanetExplorer.java RENAME direction=>String direction FIELD
 EditAction 1445433130828 PlanetExplorer.java 3032 7 13 0
+UnitTestCaseAction 1445433133488 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433133488 TestPlanetExplorer FAIL
+EditAction 1445433158172 PlanetExplorer.java 3049 7 13 0

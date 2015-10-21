@@ -93,7 +93,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		return "";
+		return this._getPosition();
 	}
 	
 	private void _turnLeft(){
