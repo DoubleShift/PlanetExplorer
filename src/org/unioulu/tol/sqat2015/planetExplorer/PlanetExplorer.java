@@ -27,12 +27,11 @@ public class PlanetExplorer {
 	
 	private void _setObstacles(String obstacles){
 
-            String patternString = ".*\\d.*";
+            String patternString = ".*(\\d,\\d).*";
 
             Pattern pattern = Pattern.compile(patternString);
             Matcher matcher = pattern.matcher(obstacles);
             while (matcher.find()) { 
-                  
                 System.out.println(matcher.groupCount());  
                 System.out.println(matcher.group());                    
             }      
