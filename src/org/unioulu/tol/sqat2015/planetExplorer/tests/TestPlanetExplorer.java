@@ -7,6 +7,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 
+	// Rule 1. The planet
 	@Test
 	public void test_create_planet() {
 		int[][] planet_array = new int[][]{
@@ -23,6 +24,7 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	// Rule 7. Placing obstacles
 	@Test
 	public void test_create_obstacles(){
 		int[][] planet_array = new int[][]{
@@ -38,6 +40,8 @@ public class TestPlanetExplorer {
 		assertArrayEquals(planet_array, planet.displayPlanet());
 	}
 	
+	
+	// Rule 2.Landing
 	@Test
 	public void test_landing(){
 		String position = "(0,0,N)";
@@ -45,6 +49,7 @@ public class TestPlanetExplorer {
 		assertEquals(position,planet.executeCommand(""));
 	}
 	
+	// Rule 3.Turning
 	@Test
 	public void test_turning(){
 		String position = "(0,0,E)";
@@ -53,6 +58,7 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	// Rule 4.Moving
 	@Test
 	public void test_moving(){
 		String position = "(0,1,N)";
@@ -60,6 +66,7 @@ public class TestPlanetExplorer {
 		assertEquals(position,planet.executeCommand("f"));
 	}
 	
+	//Rule 5.Moving and truning combined
 	@Test
 	public void test_truning_moving(){
 		String position = "(2,2,E)";
@@ -67,11 +74,28 @@ public class TestPlanetExplorer {
 		assertEquals(position,planet.executeCommand("ffrff"));
 	}
 	
-	
+	//Rule 6. Wrapping
+	// not finish, I don't understand the mapping rule
 	@Test
 	public void test_wrapping(){
 		String position = "(5,5,N)";
 		PlanetExplorer planet = new PlanetExplorer(6,6,"");
 		assertEquals(position,planet.executeCommand("b"));
+	}
+	
+	@Test
+	public void test_locating_obstacle(){
+		String reports = "(5,5,N)";
+		PlanetExplorer planet = new PlanetExplorer(6,6,"(2,2)");
+		planet.executeCommand("ffrfff");
+		assertEquals(reports,planet.report());
+	}
+	
+	@Test
+	public void test_locating_obstacles(){
+		String position = "(5,5,N)";
+		PlanetExplorer planet = new PlanetExplorer(6,6,"");
+		planet.executeCommand("b");
+		assertEquals(position,planet.report());
 	}
 }

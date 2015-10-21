@@ -186,3 +186,4 @@ RefactoringAction 1445434637114 TestPlanetExplorer.java RENAME test_wrapping()/2
 RefactoringAction 1445434638130 TestPlanetExplorer.java RENAME test_locating_obstacle()/2=>void test_locating_obstacles() METHOD
 RefactoringAction 1445434702917 PlanetExplorer.java ADD String report() METHOD
 EditAction 1445434709736 PlanetExplorer.java 4164 11 20 0
+EditAction 1445434712783 TestPlanetExplorer.java 2583 9 29 9
