@@ -111,14 +111,14 @@ public class PlanetExplorer {
 			case 0://North
 				this.y+=1;
 				break;
-			case 1://South
+			case 1://East
+				this.x+=1;
+				break;		
+			case 2://South
 				this.y-=1;
 				break;		
-			case 2://West
+			case 3://West
 				this.x-=1;
-				break;		
-			case 3://East
-				this.x+=1;
 				break;
 		}
 	}
@@ -128,14 +128,14 @@ public class PlanetExplorer {
 			case 0://North
 				this.y-=1;
 				break;
-			case 1://South
+			case 1://East
+				this.x-=1;
+				break;		
+			case 2://South
 				this.y+=1;
 				break;		
-			case 2://West
+			case 3://West
 				this.x+=1;
-				break;		
-			case 3://East
-				this.x-=1;
 				break;
 		}
 		
