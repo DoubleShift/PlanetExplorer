@@ -31,7 +31,7 @@ public class PlanetExplorer {
 
             Pattern pattern = Pattern.compile(patternString);
             Matcher matcher = pattern.matcher(obstacles);
-            System.out.println(matcher.matches());
+            System.out.println(matcher.group());
 	}
 	
 	
