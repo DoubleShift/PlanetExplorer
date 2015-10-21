@@ -22,4 +22,29 @@ public class TestPlanetExplorer {
 		assertArrayEquals(planet_array, planet.displayPlanet());
 		
 	}
+	
+	@Test
+	public void test_create_obstacles(){
+		
+	}
+	
+	@Test
+	public void test_landing(){
+		
+	}
+	
+	@Test
+	public void test_turning(){
+		
+	}
+	
+	@Test
+	public void test_moving(){
+		
+	}
+	
+	@Test
+	public void test_truning_moving(){
+		
+	}
 }

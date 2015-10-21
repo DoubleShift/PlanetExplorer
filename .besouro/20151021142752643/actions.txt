@@ -34,3 +34,26 @@ UnitTestSessionAction 1445429191552 TestPlanetExplorer FAIL
 UnitTestCaseAction 1445429231770 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445429231771 TestPlanetExplorer FAIL
 EditAction 1445429334838 PlanetExplorer.java 1567 3 4 0
+UnitTestCaseAction 1445429337499 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429337500 TestPlanetExplorer OK
+RefactoringAction 1445429355640 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445429359167 TestPlanetExplorer.java RENAME test=>void test() METHOD
+RefactoringAction 1445429369695 TestPlanetExplorer.java ADD void test()/2 METHOD
+RefactoringAction 1445429369697 TestPlanetExplorer.java ADD void test()/3 METHOD
+RefactoringAction 1445429369698 TestPlanetExplorer.java ADD void test()/4 METHOD
+RefactoringAction 1445429369698 TestPlanetExplorer.java ADD void test()/5 METHOD
+RefactoringAction 1445429376212 TestPlanetExplorer.java RENAME test()/5=>void test_() METHOD
+RefactoringAction 1445429378726 TestPlanetExplorer.java RENAME test_()=>void test_create() METHOD
+RefactoringAction 1445429379743 TestPlanetExplorer.java RENAME test_create()=>void test_create_() METHOD
+RefactoringAction 1445429387758 TestPlanetExplorer.java RENAME test_create_()=>void test_create_obstacles() METHOD
+RefactoringAction 1445429392272 TestPlanetExplorer.java RENAME test()/4=>void test_landing() METHOD
+RefactoringAction 1445429396788 TestPlanetExplorer.java RENAME test()/3=>void test FIELD
+RefactoringAction 1445429400333 TestPlanetExplorer.java RENAME test()/3=>void test_() METHOD
+RefactoringAction 1445429403849 TestPlanetExplorer.java RENAME test_()=>void test_trun() METHOD
+RefactoringAction 1445429407864 TestPlanetExplorer.java RENAME test_trun()=>void test_turning() METHOD
+RefactoringAction 1445429411380 TestPlanetExplorer.java RENAME test()/2=>void test_() METHOD
+RefactoringAction 1445429414394 TestPlanetExplorer.java RENAME test_()=>void test_moving() METHOD
+RefactoringAction 1445429418909 TestPlanetExplorer.java RENAME test()=>void test_() METHOD
+RefactoringAction 1445429422923 TestPlanetExplorer.java RENAME test_()=>void test_truning() METHOD
+RefactoringAction 1445429425937 TestPlanetExplorer.java RENAME test_truning()=>void test_truning_moving() METHOD
+EditAction 1445429431390 TestPlanetExplorer.java 861 6 3 1
