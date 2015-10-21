@@ -187,3 +187,4 @@ RefactoringAction 1445434638130 TestPlanetExplorer.java RENAME test_locating_obs
 RefactoringAction 1445434702917 PlanetExplorer.java ADD String report() METHOD
 EditAction 1445434709736 PlanetExplorer.java 4164 11 20 0
 EditAction 1445434712783 TestPlanetExplorer.java 2583 9 29 9
+EditAction 1445434771036 TestPlanetExplorer.java 2592 9 29 9

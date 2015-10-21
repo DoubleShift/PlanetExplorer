@@ -85,17 +85,17 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_locating_obstacle(){
-		String reports = "(5,5,N)";
+		String report = "(1,2,E)(2,2)";
 		PlanetExplorer planet = new PlanetExplorer(6,6,"(2,2)");
 		planet.executeCommand("ffrfff");
-		assertEquals(reports,planet.report());
+		assertEquals(report,planet.report());
 	}
 	
 	@Test
 	public void test_locating_obstacles(){
-		String position = "(5,5,N)";
+		String report = "(1,2,E)(2,2)(2,1)";
 		PlanetExplorer planet = new PlanetExplorer(6,6,"");
 		planet.executeCommand("b");
-		assertEquals(position,planet.report());
+		assertEquals(report,planet.report());
 	}
 }
