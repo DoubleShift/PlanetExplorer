@@ -1,6 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:101
@@ -18,7 +20,23 @@ public class PlanetExplorer {
 		planet_array = new int[x][y];
 		for (int[] row: planet_array)
 		    Arrays.fill(row, 0);
+		
+		this._setObstacles(obstacles);
 	}
+	
+	
+	private void _setObstacles(String obstacles){
+        String text    =
+                "This is the text to be searched " +
+                "for occurrences of the http:// pattern.";
+
+            String patternString = "\\d";
+
+            Pattern pattern = Pattern.compile(patternString);
+            Matcher matcher = pattern.matcher(obstacles);
+            System.out.println(matcher);
+	}
+	
 	
 	public int[][] displayPlanet(){
 		return planet_array;

@@ -63,3 +63,6 @@ RefactoringAction 1445429505412 PlanetExplorer.java RENAME _setObsta=>void _setO
 RefactoringAction 1445429506431 PlanetExplorer.java RENAME _setObstacles=>void _setObstacles() METHOD
 RefactoringAction 1445429515984 PlanetExplorer.java RENAME _setObstacles()=>void _setObstacles(String) METHOD
 EditAction 1445429607460 TestPlanetExplorer.java 1180 6 6 2
+RefactoringAction 1445429654565 PlanetExplorer.java ADD import java.util.regex.Pattern IMPORT
+RefactoringAction 1445429659682 PlanetExplorer.java ADD import java.util.regex.Matcher IMPORT
+EditAction 1445430204747 PlanetExplorer.java 2083 4 10 0
