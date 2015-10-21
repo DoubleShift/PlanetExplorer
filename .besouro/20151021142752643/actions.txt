@@ -170,3 +170,6 @@ RefactoringAction 1445434034930 PlanetExplorer.java RENAME _checkEdge=>void _che
 RefactoringAction 1445434059104 PlanetExplorer.java REMOVE _checkEdge() METHOD
 RefactoringAction 1445434068256 PlanetExplorer.java ADD void _checkEdge() METHOD
 EditAction 1445434069576 PlanetExplorer.java 4077 10 19 0
+RefactoringAction 1445434080274 TestPlanetExplorer.java ADD void test_truning_moving()/2 METHOD
+RefactoringAction 1445434087288 TestPlanetExplorer.java RENAME test_truning_moving()/2=>void test_wrapping() METHOD
+EditAction 1445434104752 TestPlanetExplorer.java 1915 7 21 7

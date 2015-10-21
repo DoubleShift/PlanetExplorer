@@ -66,4 +66,12 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(6,6,"");
 		assertEquals(position,planet.executeCommand("ffrff"));
 	}
+	
+	
+	@Test
+	public void test_wrapping(){
+		String position = "(5,5,N)";
+		PlanetExplorer planet = new PlanetExplorer(6,6,"");
+		assertEquals(position,planet.executeCommand("b"));
+	}
 }
